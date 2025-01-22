@@ -5,9 +5,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Ansonika">
-    <title>PARADISE - Hotel and Bed&Breakfast Site Template</title>
+    <meta name="description"
+        content="Oops! The page you are looking for does not exist. Visit our homepage or explore other sections of Echowood Property Limited to find what you're looking for.">
+    <meta name="author" content="Echowood Property Limited">
+    <title>404 - Page Not Found - Echowood Property Limited</title>
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -32,7 +33,22 @@
 
     <!-- YOUR CUSTOM CSS -->
     <link href="css/custom.css" rel="stylesheet">
+
+    <!-- SEO META TAGS -->
+    <meta name="keywords"
+        content="404 page, page not found, error page, Echowood Property Limited, real estate company">
+    <meta property="og:title" content="404 - Page Not Found - Echowood Property Limited">
+    <meta property="og:description"
+        content="Sorry, the page you are looking for doesn't exist. Visit our homepage or explore other pages to find the real estate information you're looking for.">
+    <meta property="og:image" content="path/to/your/404-image.jpg"> <!-- Optional: Replace with an actual 404 image -->
+    <meta property="og:url" content="http://www.imanielite.com/404">
+    <meta name="twitter:title" content="404 - Page Not Found - Echowood Property Limited">
+    <meta name="twitter:description"
+        content="Oops! This page could not be found. Visit our homepage or explore other sections of the site.">
+    <meta name="twitter:image" content="path/to/your/404-image.jpg"> <!-- Optional: Replace with an actual 404 image -->
+    <meta name="twitter:card" content="summary_large_image">
 </head>
+
 
 <body>
 
@@ -76,12 +92,12 @@
                             <g id="stars">
                                 <g id="starsBig">
                                     <g>
-                                        <line fill="none" stroke="#0E0620" stroke-width="3" stroke-linecap="round"
-                                            stroke-miterlimit="10" x1="518.07" y1="245.375" x2="518.07"
-                                            y2="266.581" />
-                                        <line fill="none" stroke="#0E0620" stroke-width="3" stroke-linecap="round"
-                                            stroke-miterlimit="10" x1="508.129" y1="255.978" x2="528.01"
-                                            y2="255.978" />
+                                        <line fill="none" stroke="#0E0620" stroke-width="3"
+                                            stroke-linecap="round" stroke-miterlimit="10" x1="518.07"
+                                            y1="245.375" x2="518.07" y2="266.581" />
+                                        <line fill="none" stroke="#0E0620" stroke-width="3"
+                                            stroke-linecap="round" stroke-miterlimit="10" x1="508.129"
+                                            y1="255.978" x2="528.01" y2="255.978" />
                                     </g>
                                     <g>
                                         <line fill="none" stroke="#0E0620" stroke-width="3"
@@ -286,10 +302,34 @@
                     <h1>404</h1>
                     <h2>UH OH! You're lost.</h2>
                     <p>The page you are looking for does not exist.
-                        But you can click the button belowto go back to the homepage.
+                        But you can click the button below to go back to the homepage.
                     </p>
-                    <p><a class="btn_1 mt-3" href="index.html">Back to home</a></p>
+                    <p><a class="btn_1 mt-3" href="/">Back to home</a></p>
+
+                    <div id="countdown-timer">
+                        <p>Redirecting in <span id="countdown">10</span> seconds...</p>
+                    </div>
+
+                    <script>
+                        // Countdown logic
+                        var countdownElement = document.getElementById("countdown");
+                        var countdownTime = 10;
+
+                        function updateCountdown() {
+                            countdownElement.textContent = countdownTime;
+                            countdownTime--;
+
+                            if (countdownTime < 0) {
+                                // Redirect to home page after countdown finishes
+                                window.location.href = "/";
+                            }
+                        }
+
+                        // Update the countdown every second
+                        setInterval(updateCountdown, 1000);
+                    </script>
                 </div>
+
             </div>
         </div>
     </main>

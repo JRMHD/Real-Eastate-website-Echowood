@@ -9,9 +9,11 @@
             <div class="col-lg-4 col-md-12">
                 <h5>Contacts</h5>
                 <ul>
-                    <li>Baker Street 567, Los Angeles 11023<br>California - US</li>
-                    <li><strong><a href="mailto:info@paradisehotel.com">info@paradisehotel.com</a></strong></li>
-                    <li><strong><a href="tel:+43443242232">+434 43242232</a></strong></li>
+                    <li>Lower Kabate,Westlands,<br>Nairobi, Kenya</li>
+                    <li><strong><a href="mailto:Maryanyangobell@gmail.com">Maryanyangobell@gmail.com</a></strong></li>
+                    <li><strong><a href="tel:254 702 426184">+254 702 426184</a></strong></li>
+                    <li><strong><a href="tel:254 781 973159">+254 781 973159
+                            </a></strong></li>
                 </ul>
                 <div class="social">
                     <ul>
@@ -42,7 +44,9 @@
                             <button type="submit" id="submit-newsletter"><i class="bi bi-send"></i></button>
                         </div>
                     </form>
-                    <p>Receive the latest offers and updates. Cancel anytime.</p>
+                    <p>Stay connected with the latest Echowood updates, offers, and news. Subscribe now and stay
+                        informed about the best opportunities, with no commitments.</p>
+
                 </div>
             </div>
         </div>

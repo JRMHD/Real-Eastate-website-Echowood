@@ -3,24 +3,33 @@
         <div class="row align-items-center">
             <div class="col-3">
                 <a href="/" class="logo_normal">
-                    <img src="img/logo.png" width="135" height="45" alt="Logo">
+                    <img src="\img\Echowood logo white.png" width="145" height="auto" alt="Logo">
                 </a>
                 <a href="/" class="logo_sticky">
-                    <img src="img/logo_sticky.png" width="135" height="45" alt="Sticky Logo">
+                    <img src="\img\Echowood logo Black.png" width="145" height="auto" alt="Sticky Logo">
                 </a>
             </div>
             <div class="col-9">
                 <div class="main-menu">
                     <nav id="mainNav">
                         <ul>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/about">About</a></li>
-                            <li><a href="/buy">Buy</a></li>
-                            <li><a href="/rent">Rent</a></li>
-                            <li><a href="/services">Services</a></li>
-                            <li><a href="/contacts">Contacts</a></li>
-                            <li><a href="#booking_section" class="btn_1">Book Now</a></li>
+                            <li><a href="/" class="{{ Request::is('/') ? 'active' : '' }}">Home</a></li>
+                            <li><a href="/about" class="{{ Request::is('about') ? 'active' : '' }}">About</a></li>
+                            <li><a href="/buy" class="{{ Request::is('buy') ? 'active' : '' }}">Buy</a></li>
+                            <li><a href="/rent" class="{{ Request::is('rent') ? 'active' : '' }}">Rent</a></li>
+                            <li><a href="/services" class="{{ Request::is('services') ? 'active' : '' }}">Services</a>
+                            </li>
+                            <li><a href="/contacts" class="{{ Request::is('contacts') ? 'active' : '' }}">Contacts</a>
+                            </li>
+                            <li><a href="#enquiry_section" class="btn_1">Send an Inquiry</a></li>
                         </ul>
+                        <style>
+                            .active {
+                                color: gold;
+                                font-weight: bold;
+                            }
+                        </style>
+
                     </nav>
                 </div>
                 <div class="hamburger_2 open_close_menu float-end">

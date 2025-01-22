@@ -5,9 +5,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Ansonika">
-    <title>PARADISE - Hotel and Bed&Breakfast Site Template</title>
+    <meta name="description"
+        content="Learn more about Echowood Property Limited, a leading real estate company offering seamless property transactions, expert advice, and personalized services for buyers, sellers, and investors.">
+    <meta name="author" content="Echowood Property Limited">
+    <title>About Us - Echowood Property Limited</title>
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -32,7 +33,22 @@
 
     <!-- YOUR CUSTOM CSS -->
     <link href="css/custom.css" rel="stylesheet">
+
+    <!-- SEO META TAGS -->
+    <meta name="keywords"
+        content="Echowood Property Limited, about us, real estate, property services, real estate experts, buy property, sell property, property investment, customer service, real estate company">
+    <meta property="og:title" content="About Us - Echowood Property Limited">
+    <meta property="og:description"
+        content="Discover the mission, vision, and values of Echowood Property Limited. Learn how we provide expert real estate services, ensuring smooth and transparent property transactions for all our clients.">
+    <meta property="og:image" content="path/to/your/about-image.jpg"> <!-- Replace with your image URL -->
+    <meta property="og:url" content="http://www.imanielite.com/about">
+    <meta name="twitter:title" content="About Us - Echowood Property Limited">
+    <meta name="twitter:description"
+        content="Learn more about Echowood Property Limited and our commitment to delivering high-quality real estate services to buyers, sellers, and investors.">
+    <meta name="twitter:image" content="path/to/your/about-image.jpg"> <!-- Replace with your image URL -->
+    <meta name="twitter:card" content="summary_large_image">
 </head>
+
 
 <body>
 
@@ -48,8 +64,8 @@
             <div class="wrapper opacity-mask d-flex align-items-center justify-content-center text-center animate_hero"
                 data-opacity-mask="rgba(0, 0, 0, 0.5)">
                 <div class="container">
-                    <small class="slide-animated one">Luxury Hotel Experience</small>
-                    <h1 class="slide-animated two">About Paradise</h1>
+                    <small class="slide-animated one">Your Trusted Real Estate Partner</small>
+                    <h1 class="slide-animated two">About Echowood Property Limited</h1>
                 </div>
             </div>
         </div>
@@ -67,19 +83,18 @@
                 <div class="col-lg-5">
                     <div class="intro">
                         <div class="title">
-                            <small>Paradise Hotel</small>
-                            <h2>Our History</h2>
+                            <small>Echowood Property Limited</small>
+                            <h2>Our Story</h2>
                         </div>
-                        <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab.</p>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                            architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                            voluptatem sequi nesciunt. </p>
-                        <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
-                            consequatur, vel illum qui dolorem eum fugiat quo.</p>
-                        <p><em>Maria...the Owner</em></p>
+                        <p class="lead">At Echowood Property Limited, we aim to make your property transactions as
+                            seamless and successful as possible, with a focus on reliability, transparency, and customer
+                            satisfaction.</p>
+                        <p>Founded with the mission to redefine the real estate experience, Echowood Property Limited
+                            has grown to become a trusted name in the industry. Our expertise spans residential,
+                            commercial, and luxury properties, making us the go-to partner for your property needs.</p>
+                        <p>We are dedicated to ensuring smooth, secure transactions that benefit both buyers and
+                            sellers, backed by an extensive network and a deep understanding of the market.</p>
+                        <p><em>Echowood Property Limited</em></p>
                     </div>
                 </div>
             </div>
@@ -93,46 +108,45 @@
                     <div class="row justify-content-between">
                         <div class="col-lg-5 fixed_title">
                             <div class="title">
-                                <small>Paradise Hotel</small>
-                                <h2>Local Amenities</h2>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                    laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                                    architecto beatae vitae dicta sunt explicabo. </p>
+                                <small>Echowood Property Limited</small>
+                                <h2>Our Local Expertise</h2>
+                                <p>We pride ourselves on knowing the local property market inside out, ensuring our
+                                    clients are always ahead of the curve. From finding the perfect property to
+                                    negotiating the best deals, we offer unparalleled service in all aspects of real
+                                    estate.</p>
                             </div>
                             <div class="list_ok">
                                 <ul>
                                     <li data-cue="slideInUp" data-delay="200">
-                                        <h5>Local Restaurants</h5>
-                                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.
-                                        </p>
+                                        <h5>Prime Properties</h5>
+                                        <p>We specialize in high-value residential, commercial, and luxury properties
+                                            located in the most sought-after areas.</p>
                                     </li>
                                     <li data-cue="slideInUp" data-delay="300">
-                                        <h5>Nature</h5>
-                                        <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam
-                                            nihil molestiae consequatur.</p>
+                                        <h5>Expert Market Insights</h5>
+                                        <p>Our in-depth market research ensures our clients always make informed
+                                            decisions based on the latest trends.</p>
                                     </li>
                                     <li data-cue="slideInUp" data-delay="400">
-                                        <h5>Art and Culture</h5>
-                                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-                                        </p>
+                                        <h5>Personalized Service</h5>
+                                        <p>From first-time homebuyers to experienced investors, we offer tailored
+                                            solutions that meet the unique needs of each client.</p>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-6 ">
+                        <div class="col-lg-6">
                             <div data-cue="fadeIn" data-delay="500">
                                 <figure><img src="img/local_amenities_1.jpg" alt=""
                                         class="img-fluid rounded-img"></figure>
                             </div>
                             <div data-cue="fadeIn" data-delay="500">
-                                <figure>
-                                    <img src="img/local_amenities_2.jpg" alt="" class="img-fluid rounded-img">
-                                </figure>
+                                <figure><img src="img/local_amenities_2.jpg" alt=""
+                                        class="img-fluid rounded-img"></figure>
                             </div>
                             <div data-cue="fadeIn" data-delay="500">
-                                <figure>
-                                    <img src="img/local_amenities_3.jpg" alt="" class="img-fluid rounded-img">
-                                </figure>
+                                <figure><img src="img/local_amenities_3.jpg" alt=""
+                                        class="img-fluid rounded-img"></figure>
                             </div>
                         </div>
                     </div>
@@ -140,107 +154,47 @@
             </div>
             <!-- /container-->
         </div>
+
         <!-- /bg_white -->
 
-        <div class="parallax_section_1 jarallax" data-jarallax data-speed="0.2">
-            <img class="jarallax-img" src="img/hero_home_1.jpg" alt="">
-            <div class="wrapper opacity-mask d-flex align-items-center justify-content-center text-center"
-                data-opacity-mask="rgba(0, 0, 0, 0.5)">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="title white">
-                                <small class="mb-1">Testimonials</small>
-                                <h2>What Clients Says</h2>
-                            </div>
-                            <div class="carousel_testimonials owl-carousel owl-theme nav-dots-orizontal">
-                                <div>
-                                    <div class="box_overlay">
-                                        <div class="pic">
-                                            <figure><img src="img/testimonial_1.jpg" alt=""
-                                                    class="img-circle">
-                                            </figure>
-                                            <h4>Roberta<small>12 Oct</small></h4>
-                                        </div>
-                                        <div class="comment">
-                                            "Mea ad postea meliore fuisset. Timeam repudiare id eum, ex paulo dictas
-                                            elaboraret sed, mel cu unum nostrud."
-                                        </div>
-                                    </div>
-                                    <!-- End box_overlay -->
-                                </div>
-                                <div>
-                                    <div class="box_overlay">
-                                        <div class="pic">
-                                            <figure><img src="img/testimonial_1.jpg" alt=""
-                                                    class="img-circle">
-                                            </figure>
-                                            <h4>Roberta<small>2 Nov</small></h4>
-                                        </div>
-                                        <div class="comment">
-                                            "Mea ad postea meliore fuisset. Timeam repudiare id eum, ex paulo dictas
-                                            elaboraret sed, mel cu unum nostrud."
-                                        </div>
-                                    </div>
-                                    <!-- End box_overlay -->
-                                </div>
-                                <div>
-                                    <div class="box_overlay">
-                                        <div class="pic">
-                                            <figure><img src="img/testimonial_1.jpg" alt=""
-                                                    class="img-circle">
-                                            </figure>
-                                            <h4>Roberta<small>3 Dec</small></h4>
-                                        </div>
-                                        <div class="comment">
-                                            "Mea ad postea meliore fuisset. Timeam repudiare id eum, ex paulo dictas
-                                            elaboraret sed, mel cu unum nostrud."
-                                        </div>
-                                    </div>
-                                    <!-- End box_overlay -->
-                                </div>
-                            </div>
-                            <!-- End carousel_testimonials -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /parallax_section_1-->
+
 
         <div class="container margin_120_95">
             <div class="title text-center mb-5">
-                <small data-cue="slideInUp">Paradise Hotel</small>
-                <h2 data-cue="slideInUp" data-delay="100">Main Facilities</h2>
+                <small data-cue="slideInUp">Echowood Property Limited</small>
+                <h2 data-cue="slideInUp" data-delay="100">Our Core Services</h2>
             </div>
             <div class="row mt-4">
                 <div class="col-lg-3 col-md-6">
                     <div class="box_facilities no-border" data-cue="slideInUp">
                         <i class="customicon-private-parking"></i>
-                        <h3>Private Parking</h3>
-                        <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
+                        <h3>Property Sourcing</h3>
+                        <p>We help you find the perfect property that suits your needs and budget. Whether you’re
+                            looking for residential or commercial properties, we’ve got you covered.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="box_facilities" data-cue="slideInUp">
                         <i class="customicon-wifi"></i>
-                        <h3>High Speed Wifi</h3>
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.</p>
+                        <h3>Market Research</h3>
+                        <p>We provide you with up-to-date market analysis to ensure you make informed property decisions
+                            based on trends, price fluctuations, and potential returns.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="box_facilities" data-cue="slideInUp">
                         <i class="customicon-cocktail"></i>
-                        <h3>Bar & Restaurant</h3>
-                        <p>Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-                        </p>
+                        <h3>Property Valuation</h3>
+                        <p>Our expert team provides accurate property valuations based on current market conditions,
+                            ensuring you get the best value whether buying or selling.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="box_facilities" data-cue="slideInUp">
                         <i class="customicon-swimming-pool"></i>
-                        <h3>Swimming Pool</h3>
-                        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.</p>
+                        <h3>Transaction Management</h3>
+                        <p>From initial offer to closing, we manage all paperwork and negotiations, ensuring a smooth
+                            and secure transaction process for both buyers and sellers.</p>
                     </div>
                 </div>
             </div>
@@ -249,12 +203,11 @@
             <div class="row justify-content-between margin_60_0">
                 <div class="col-lg-4">
                     <div class="title">
-                        <small>Paradise Hotel Faq</small>
-                        <h3>Frequently Questions</h3>
+                        <small>Echowood Property Limited</small>
+                        <h3>Frequently Asked Questions</h3>
                     </div>
-                    <p>Can’t find your question in the list?
-                        Let us know your questions.</p>
-                    <p><a href="contacts.html" class="animated_link"><strong>Contact Us <i
+                    <p>Can’t find your question in the list? Let us know your questions.</p>
+                    <p><a href="/contacts" class="animated_link"><strong>Contact Us <i
                                     class="bi bi-arrow-right"></i></strong></a></p>
                 </div>
                 <div class="col-lg-7">
@@ -264,21 +217,15 @@
                                 <h5 class="mb-0">
                                     <a class="collapsed" data-bs-toggle="collapse" href="#collapseOne_product"
                                         aria-expanded="false">
-                                        <i class="indicator bi-plus-lg"></i>Cancellation
+                                        <i class="indicator bi-plus-lg"></i>Property Sourcing Process
                                     </a>
                                 </h5>
                             </div>
                             <div id="collapseOne_product" class="collapse" role="tabpanel" data-bs-parent="#faq">
                                 <div class="card-body">
-                                    <p>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                        sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
-                                        craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
-                                        haven't heard of them accusamus labore sustainable VHS.</p>
-                                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                                        sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                                        shoreditch et.</p>
+                                    <p>At Echowood Property Limited, our property sourcing process is streamlined to
+                                        match clients with ideal properties through our vast networks and extensive
+                                        market research.</p>
                                 </div>
                             </div>
                         </div>
@@ -288,21 +235,15 @@
                                 <h5 class="mb-0">
                                     <a class="collapsed" data-bs-toggle="collapse" href="#collapseTwo_product"
                                         aria-expanded="false">
-                                        <i class="indicator bi-plus-lg"></i>Payments
+                                        <i class="indicator bi-plus-lg"></i>How Does Property Valuation Work?
                                     </a>
                                 </h5>
                             </div>
                             <div id="collapseTwo_product" class="collapse" role="tabpanel" data-bs-parent="#faq">
                                 <div class="card-body">
-                                    <p>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                        sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
-                                        craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
-                                        haven't heard of them accusamus labore sustainable VHS.</p>
-                                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                                        sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                                        shoreditch et.</p>
+                                    <p>We provide accurate property valuations based on comparable properties, location
+                                        analysis, and real estate trends, ensuring that sellers get the best price for
+                                        their property and buyers make an informed investment.</p>
                                 </div>
                             </div>
                         </div>
@@ -312,21 +253,16 @@
                                 <h5 class="mb-0">
                                     <a class="collapsed" data-bs-toggle="collapse" href="#collapseThree_product"
                                         aria-expanded="false">
-                                        <i class="indicator bi-plus-lg"></i>Check In / Out Rules
+                                        <i class="indicator bi-plus-lg"></i>How Do I Get Started with Buying or
+                                        Selling?
                                     </a>
                                 </h5>
                             </div>
                             <div id="collapseThree_product" class="collapse" role="tabpanel" data-bs-parent="#faq">
                                 <div class="card-body">
-                                    <p>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                        sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
-                                        craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
-                                        haven't heard of them accusamus labore sustainable VHS.</p>
-                                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                                        sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                                        shoreditch et.</p>
+                                    <p>To get started, simply contact us to schedule a consultation where we will
+                                        discuss your needs, budget, and goals to provide personalized solutions and
+                                        guidance throughout the process.</p>
                                 </div>
                             </div>
                         </div>
@@ -336,21 +272,15 @@
                                 <h5 class="mb-0">
                                     <a class="collapsed" data-bs-toggle="collapse" href="#collapseFour_product"
                                         aria-expanded="false">
-                                        <i class="indicator bi-plus-lg"></i>Disable Access
+                                        <i class="indicator bi-plus-lg"></i>Legal and Compliance Support
                                     </a>
                                 </h5>
                             </div>
                             <div id="collapseFour_product" class="collapse" role="tabpanel" data-bs-parent="#faq">
                                 <div class="card-body">
-                                    <p>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                        sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
-                                        craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
-                                        haven't heard of them accusamus labore sustainable VHS.</p>
-                                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                                        sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                                        shoreditch et.</p>
+                                    <p>We ensure that all property transactions comply with local real estate laws and
+                                        regulations, offering assistance with legal documentation, property title
+                                        transfers, and tax obligations.</p>
                                 </div>
                             </div>
                         </div>
@@ -361,6 +291,7 @@
             </div>
             <!-- /Row -->
         </div>
+
         <!-- /container -->
 
     </main>
