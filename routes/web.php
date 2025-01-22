@@ -2,6 +2,9 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\EnquiryController;
+use App\Http\Controllers\NewsletterController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -58,3 +61,7 @@ require __DIR__ . '/auth.php';
 Route::fallback(function () {
     return redirect()->route('404');
 });
+
+Route::post('/contact/store', [ContactController::class, 'store']);
+Route::post('/enquiry/store', [EnquiryController::class, 'store'])->name('enquiry.store');
+Route::post('/newsletter/store', [NewsletterController::class, 'store'])->name('newsletter.store');

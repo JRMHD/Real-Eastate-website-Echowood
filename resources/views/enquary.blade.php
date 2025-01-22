@@ -15,7 +15,8 @@
         <div class="col-xl-7">
             <div data-cue="slideInUp" data-delay="200">
                 <div class="enquiry_wrapper">
-                    <form action="#0" method="post">
+                    <form method="POST" action="{{ route('enquiry.store') }}" id="enquairy">
+                        @csrf
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="mb-3">
@@ -69,6 +70,135 @@
                         </div>
                         <p class="text-end mt-4"><button type="submit" class="btn_1 outline">Send Inquiry</button></p>
                     </form>
+                    <!-- Success/Error Message Placeholder -->
+                    <div id="message-status"></div>
+                    <script>
+                        document.getElementById('enquairy').addEventListener('submit', async function(e) {
+                            e.preventDefault(); // Prevent the form from submitting normally
+                            const form = e.target;
+                            const formData = new FormData(form);
+
+                            // Apply blur effect to the body
+                            document.body.classList.add('loading');
+
+                            // Create and show the spinner
+                            const spinnerContainer = document.createElement('div');
+                            spinnerContainer.classList.add('spinner-container');
+                            spinnerContainer.innerHTML = '<div class="spinner"></div>';
+                            document.body.appendChild(spinnerContainer);
+
+                            // Hide the success/error message
+                            const messageStatus = document.getElementById('message-status');
+                            messageStatus.style.display = 'none';
+
+                            try {
+                                const response = await fetch(form.action, {
+                                    method: 'POST',
+                                    body: formData,
+                                    headers: {
+                                        'Accept': 'application/json',
+                                        'X-CSRF-TOKEN': '{{ csrf_token() }}',
+                                    },
+                                });
+
+                                if (response.ok) {
+                                    const result = await response.json();
+                                    // Show success message
+                                    messageStatus.textContent = result.message;
+                                    messageStatus.classList.add('success');
+                                    messageStatus.style.display = 'block';
+                                } else {
+                                    // Show error message
+                                    messageStatus.textContent = 'Error submitting the inquiry.';
+                                    messageStatus.classList.add('error');
+                                    messageStatus.style.display = 'block';
+                                }
+                            } catch (error) {
+                                // Handle unexpected errors
+                                messageStatus.textContent = 'An error occurred. Please try again.';
+                                messageStatus.classList.add('error');
+                                messageStatus.style.display = 'block';
+                            } finally {
+                                // Remove spinner and restore page
+                                document.body.removeChild(spinnerContainer);
+                                document.body.classList.remove('loading');
+                            }
+                        });
+                    </script>
+
+
+                    <style>
+                        /* Spinner styles */
+                        .spinner {
+                            border: 5px solid #f3f3f3;
+                            /* Light gray */
+                            border-top: 5px solid #3498db;
+                            /* Blue */
+                            border-radius: 50%;
+                            width: 40px;
+                            height: 40px;
+                            animation: spin 1s linear infinite;
+                        }
+
+                        @keyframes spin {
+                            0% {
+                                transform: rotate(0deg);
+                            }
+
+                            100% {
+                                transform: rotate(360deg);
+                            }
+                        }
+
+                        /* Blurring background during submission */
+                        body.loading {
+                            overflow: hidden;
+                        }
+
+                        body.loading::after {
+                            content: "";
+                            position: fixed;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            background: rgba(0, 0, 0, 0.5);
+                            /* Semi-transparent overlay */
+                            z-index: 9999;
+                            filter: blur(5px);
+                        }
+
+                        .spinner-container {
+                            position: fixed;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            z-index: 10000;
+                            /* Ensure it's above the blur overlay */
+                        }
+
+                        /* Success/Error message styles */
+                        #message-status {
+                            margin-top: 20px;
+                            font-weight: bold;
+                            padding: 10px;
+                            text-align: center;
+                            border-radius: 5px;
+                            display: none;
+                            /* Hidden by default */
+                        }
+
+                        .success {
+                            background-color: #28a745;
+                            color: white;
+                        }
+
+                        .error {
+                            background-color: #dc3545;
+                            color: white;
+                        }
+                    </style>
+
                 </div>
             </div>
         </div>

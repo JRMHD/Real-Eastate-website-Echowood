@@ -12,12 +12,7 @@
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114"
-        href="img/apple-touch-icon-114x114-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144"
-        href="img/apple-touch-icon-144x144-precomposed.png">
+
 
     <!-- GOOGLE WEB FONT-->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
@@ -92,9 +87,9 @@
                             <g id="stars">
                                 <g id="starsBig">
                                     <g>
-                                        <line fill="none" stroke="#0E0620" stroke-width="3"
-                                            stroke-linecap="round" stroke-miterlimit="10" x1="518.07"
-                                            y1="245.375" x2="518.07" y2="266.581" />
+                                        <line fill="none" stroke="#0E0620" stroke-width="3" stroke-linecap="round"
+                                            stroke-miterlimit="10" x1="518.07" y1="245.375" x2="518.07"
+                                            y2="266.581" />
                                         <line fill="none" stroke="#0E0620" stroke-width="3"
                                             stroke-linecap="round" stroke-miterlimit="10" x1="508.129"
                                             y1="255.978" x2="528.01" y2="255.978" />

@@ -13,12 +13,7 @@
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114"
-        href="img/apple-touch-icon-114x114-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144"
-        href="img/apple-touch-icon-144x144-precomposed.png">
+    
 
     <!-- GOOGLE WEB FONT-->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
@@ -41,12 +36,12 @@
     <meta property="og:title" content="Echowood Property Limited - Trusted Real Estate Services">
     <meta property="og:description"
         content="Echowood Property Limited provides expert services in buying, selling, and managing properties. Our goal is to ensure smooth transactions and happy clients.">
-    <meta property="og:image" content="path/to/your/image.jpg"> <!-- Update with your logo or relevant image -->
+    <meta property="og:image" content="path/to/your/image.jpg">
     <meta property="og:url" content="http://www.imanielite.com">
     <meta name="twitter:title" content="Echowood Property Limited - Trusted Real Estate Services">
     <meta name="twitter:description"
         content="At Echowood Property Limited, we specialize in seamless property transactions and delivering exceptional real estate services.">
-    <meta name="twitter:image" content="path/to/your/image.jpg"> <!-- Update with your logo or relevant image -->
+    <meta name="twitter:image" content="path/to/your/image.jpg">
     <meta name="twitter:card" content="summary_large_image">
 </head>
 
