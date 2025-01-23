@@ -12,7 +12,7 @@
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-   
+
 
     <!-- GOOGLE WEB FONT-->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
@@ -320,9 +320,9 @@
         <div class="pinned-image pinned-image--medium">
             <div class="pinned-image__container" id="section_video">
                 <video loop="loop" muted="muted" id="video_home">
-                    <source src="\video\home vid 1.mp4" type="video/mp4">
-                    <source src="\video\home vid 1.mp4" type="video/webm">
-                    <source src="\video\home vid 1.mp4" type="video/ogg">
+                    <source src="\video\home vid 2.mp4" type="video/mp4">
+                    <source src="\video\home vid 2.mp4" type="video/webm">
+                    <source src="\video\home vid 2.mp4" type="video/ogg">
                 </video>
                 <div class="pinned-image__container-overlay"></div>
             </div>

@@ -13,7 +13,7 @@
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    
+
 
     <!-- GOOGLE WEB FONT-->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
@@ -72,29 +72,38 @@
             <div class="row_list_version_1">
                 <div class="pinned-image rounded_container pinned-image--medium">
                     <div class="pinned-image__container">
-                        <img src="img/rooms/1.jpg" alt="">
+                        <img src="\img\buy1.jpg" alt="">
                     </div>
                 </div>
                 <!-- /pinned-image -->
                 <div class="row justify-content-start">
                     <div class="col-lg-8">
                         <div class="box_item_info" data-jarallax-element="-30">
-                            <small>Perfect for Your New Home</small>
-                            <h2>Residential Properties</h2>
-                            <p>Discover a range of stylish and modern residential properties designed to suit various
-                                lifestyles and preferences. Whether you are a first-time buyer or upgrading, we have the
-                                right home for you.</p>
+                            <small>KES 22,000,000.00</small>
+                            <h2>Venus Oak</h2>
+                            <p>
+                                Hi! Thrilled to present you our recent development: Venus Oak<br>
+                                KES 22,000,000.00<br>
+                                4 Bedroom + DSQ (230 sqm)<br><br>
+                                Location: Along Othaya Road, Kileleshwa<br><br>
+                                We are creating a new wave of urban energy, blending relaxation and sophistication.
+                            </p>
                             <div class="facilities clearfix">
                                 <ul>
-                                    <li>
-                                        <i class="customicon-double-bed"></i> Spacious Bedrooms
-                                    </li>
-                                    <li>
-                                        <i class="customicon-wifi"></i> High-Speed Internet Connectivity
-                                    </li>
-                                    <li>
-                                        <i class="customicon-television"></i> Modern Entertainment Systems
-                                    </li>
+                                    <li>✅ Swimming Pool</li>
+                                    <li>✅ Equipped Gym</li>
+                                    <li>✅ Electric Fence</li>
+                                    <li>✅ Borehole</li>
+                                    <li>✅ Backup Generator</li>
+                                    <li>✅ Play Area</li>
+                                    <li>✅ CCTV Surveillance</li>
+                                    <li>✅ Ample Parking</li>
+                                    <li>✅ Indoor Kids Play</li>
+                                    <li>✅ Library</li>
+                                    <li>✅ Multi-purpose Hall</li>
+                                    <li>✅ Theatre</li>
+                                    <li>✅ Common Laundry Area</li>
+                                    <li>✅ Yoga and Sauna Area</li>
                                 </ul>
                             </div>
                             <div class="box_item_footer d-flex align-items-center justify-content-between">
@@ -104,12 +113,14 @@
                                     </span>
                                     <span class="button-text">Schedule a Viewing</span>
                                 </a>
-                                <a href="/about" class="animated_link">
+                                <a href="/contacts" class="animated_link">
                                     <strong>Read more</strong>
                                 </a>
                             </div>
                             <!-- /box_item_footer -->
+                            <small>Completion: September 2026</small>
                         </div>
+
                         <!-- /box_item_info -->
                     </div>
                     <!-- /col -->
@@ -121,31 +132,19 @@
             <div class="row_list_version_1">
                 <div class="pinned-image rounded_container pinned-image--medium">
                     <div class="pinned-image__container">
-                        <img src="img/rooms/2_b.jpg" alt="">
+                        <img src="\img\crystal1.jpg" alt="">
                     </div>
                 </div>
                 <!-- /pinned-image -->
                 <div class="row justify-content-end">
                     <div class="col-lg-8">
                         <div class="box_item_info float-lg-end" data-jarallax-element="-30">
-                            <small>Prime Locations for Your Business</small>
-                            <h2>Commercial Properties</h2>
-                            <p>Our commercial properties offer excellent opportunities for businesses to thrive. With
-                                premium locations and modern infrastructure, these properties are ideal for offices,
-                                retail spaces, or enterprises looking to expand.</p>
-                            <div class="facilities clearfix">
-                                <ul>
-                                    <li>
-                                        <i class="customicon-double-bed"></i> Ample Office Space
-                                    </li>
-                                    <li>
-                                        <i class="customicon-wifi"></i> Fast Internet Connections
-                                    </li>
-                                    <li>
-                                        <i class="customicon-television"></i> Cutting-edge Facilities
-                                    </li>
-                                </ul>
-                            </div>
+                            <small>Crystal Oak Residence Kileleshwa</small>
+                            <h2>3, 4 & 5 Bedroom Apartments</h2>
+                            <p>
+                                For sale: All ensuite apartments plus DSQ.<br>
+                                Experience luxurious living in one of the most sought-after locations.
+                            </p>
                             <div class="box_item_footer d-flex align-items-center justify-content-between">
                                 <a href="#enquiry_section" class="btn_4 learn-more">
                                     <span class="circle">
@@ -153,7 +152,7 @@
                                     </span>
                                     <span class="button-text">Schedule a Viewing</span>
                                 </a>
-                                <a href="/about" class="animated_link">
+                                <a href="/contacts" class="animated_link">
                                     <strong>Read more</strong>
                                 </a>
                             </div>
@@ -165,12 +164,13 @@
                 </div>
                 <!-- /row -->
             </div>
+
             <!-- /row_list_version_1 -->
 
             <div class="row_list_version_1">
                 <div class="pinned-image rounded_container pinned-image--medium">
                     <div class="pinned-image__container">
-                        <img src="img/rooms/3_b.jpg" alt="">
+                        <img src="\img\crystal3.jpg" alt="">
                     </div>
                 </div>
                 <!-- /pinned-image -->

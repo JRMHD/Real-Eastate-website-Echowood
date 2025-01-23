@@ -12,7 +12,7 @@
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    
+
 
     <!-- GOOGLE WEB FONT-->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
@@ -125,7 +125,7 @@
                             <img src="img/rooms/opt_5.jpg" alt="">
                         </div>
                         <div class="item">
-                            <img src="img/rooms/opt_1.jpg" alt="">
+                            <img src="\img\rooms\opt11.jpg" alt="">
                         </div>
                         <div class="item">
                             <img src="img/rooms/opt_4.jpg" alt="">
@@ -138,7 +138,7 @@
                 <div class="text-center mt-5">
                     <a class="btn_1 outline" data-fslightbox="gallery_1" data-type="image"
                         href="img/rooms/opt_5.jpg">FullScreen Gallery</a>
-                    <a data-fslightbox="gallery_1" data-type="image" href="img/rooms/opt_1.jpg"></a>
+                    <a data-fslightbox="gallery_1" data-type="image" href="\img\rooms\opt11.jpg"></a>
                     <a data-fslightbox="gallery_1" data-type="image" href="img/rooms/opt_4.jpg"></a>
                     <a data-fslightbox="gallery_1" data-type="image" href="img/rooms/opt_6.jpg"></a>
                 </div>
