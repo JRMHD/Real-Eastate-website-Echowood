@@ -163,7 +163,7 @@
             <script>
                 document.write(new Date().getFullYear());
             </script> {{ config('app.name') }} - Designed and Developed by
-            <a href="https://www.jrmhd.tech/" target="_blank">Jrmhd Technologies</a>
+            <a href="https://inficorehub.com/" target="_blank">InficoreHub LTD</a>
         </div>
     </div>
 
